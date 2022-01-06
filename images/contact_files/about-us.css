@@ -1,0 +1,391 @@
+html, body{overflow:inherit}
+/*Inside section here*/
+.inside_wrapper{float:left; width:100%; background:#ffffff url(../images/dots-bg.png) no-repeat center top; background-attachment:fixed; background-size:cover;}
+.inside_container{margin:0 auto; max-width:1170px; width:80%;}
+.row{float:left; width:100%; }
+.row.bg{background-color:#fff;}
+.inside_container h3{ /*font-family: 'uni_neuebook';*/font-family: 'uni_neueregular'; font-weight:400; padding:25px 10%; font-size:20px; text-align:center;}
+.profile_info{float:left; width:100%; text-align:center; }
+.col2-box{float:left; width:100%; padding:0 40px}
+.col2-box .left_info{ float:left; width:58%; padding:0 0px; font-size:16px; /*font-family: 'uni_neuebook';*/ font-family: 'uni_neueregular'; }
+.col2-box .left_info p{padding:0 0 25px; line-height:24px;}
+.col2-box .right_info{float:right; width:40%; text-align:right; position:relative;}
+.info_affirmative{position:absolute; bottom:15px; left:60px; padding:15px; color:#fff; font-size:16px; text-align:left;}
+.btn_center{ float:left; width:100%; text-align:center; margin:35px 0}
+.btn_center a{display:inline-block; background-color:#3983e2; border-radius:3px; padding:11px 25px 11px 25px; color:#fff; }
+.btn_center a i{padding-left:15px;}
+.vision_mission_values_bg{float:left; background:url(../images/vision_mission_values_bg.jpg) no-repeat center top; width:100%; /*height:249px;*/height:272px; padding:30px 0; color:#fff; position:relative;} 
+.vision_mission_values_bg .row{background-color:transparent }
+.vision_mission_values_bg ul{margin:0px; padding:0px;}
+.vision_mission_values_bg ul li{float:left; max-width:331px; width:100%; background:url(../images/square_box.png) no-repeat; /*height:186px;*/height:220px; padding:15px 24px; /*font-family: 'uni_neuebook';*/ font-family: 'uni_neueregular'; margin:0 45px 0 0;}
+.vision_mission_values_bg ul li:nth-child(2){max-width:392px; background:url(../images/square_box2.png) no-repeat;  }
+.vision_mission_values_bg ul li:last-child{margin-right:0px;}
+.vision_mission_values_bg ul li h3{ font-size:24px; padding:0 0 8px; text-align:left; text-transform:uppercase; }
+.vision_mission_values_bg ul li p{font-size:16px;}
+.vision_mission_values_bg ul ul li{max-width:none; height:auto; background:url(../images/dotted.png) no-repeat 0 5px; padding:0 0 0 18px; font-size:16px; margin:5px 0 5px}
+.vision_mission_values_bg ul ul li:nth-child(2){max-width:none; background:url(../images/dotted.png) no-repeat 0 5px;  }
+.vision_mission_values_bg ul ul.col2 li{ width:50%}
+.company_history{float:left; background:url(../images/history_bg.jpg) no-repeat center top; width:100%; padding:55px 0 120px; color:#fff; position:relative; background-attachment:fixed; background-size:cover;}
+
+.vision_mission_values_bg ul.new_brd_list > li{background: none; width: 25%; margin: 0px; padding: 0 6px;  }
+.vision_mission_values_bg ul.new_brd_list > li aside{border-radius: 0 20px 0 20px; border: 1px solid #fff; width: 100%; height: 100%; padding: 30px;}
+.vision_mission_values_bg ul.new_brd_list ul li{width: 100%; border-radius: 0; border: 0px solid #fff; }
+.vision_mission_values_bg ul.new_brd_list  ul.col2 li {width: 50%; border-radius: 0; border: 0px solid #fff; }
+
+.vision_mission_values_bg ul li h3.absub_head{ font-size:16px; padding: 0px; margin: 0px; line-height: normal;}
+
+.ab_col2{float: left; width: 50%; padding: 0 6px 0 0;}
+.ab_col2.last{padding: 0;}
+.vision_mission_values_bg ul.space_btm{margin-bottom:10px; float: left; width: 100%;}
+.vision_mission_values_bg ul.space_btm li{font-size: 12px;}
+
+
+
+.company_history h3{/*font-family: 'uni_neuebook';*/font-family: 'uni_neueregular'; font-size:28px; text-align:center; color:#000000; padding:0 0 15px}
+.company_history p{ font-size:18px; /*font-family: 'uni_neuebook';*/font-family: 'uni_neueregular'; color:#000; text-align:center;}
+.history_slider{float:left; width:100%; padding:0 10%; background:url(../images/history_bottombg.png) no-repeat bottom center; height:470px;}
+.history_slider li{position:relative;height:462px; margin-right:29px;}
+.history_slider li .dotted{position:absolute; background:url(../images/history_dotted.png); width:21px; height:50px;  margin:0 auto; left:0; right:0; bottom:0px;}
+.history_slider li .yearbox{ position:absolute; left:0; bottom:0;}
+.history_slider li .yearbox .year_img{border:2px solid #fff; position:relative}
+.history_slider li .yearbox .year_img span{ font-size:36px; font-family: 'uni_neuebold'; position:absolute; left:13px; bottom:13px;}
+.history_slider li .yearbox .info_con{background-color:#669de5; padding:18px; margin:10px 0 47px 0; /*font-family: 'uni_neuebook';*/ font-family: 'uni_neueregular'; font-size:16px; min-height:122px;}
+.slider_prev2{background:#030352 url(../images/sprite.png) no-repeat -146px -76px; position:absolute; bottom:-80px; left:0; right:66px; margin:0 auto; width:39px; height:39px; text-indent:-20000px; cursor:pointer; border-radius:4px;}
+.slider_next2{background:#030352 url(../images/sprite.png) no-repeat -187px -76px; position:absolute; bottom:-80px; left:66px; right:0px; margin:0 auto; width:39px; height:39px; text-indent:-20000px; cursor:pointer; border-radius:4px;}
+.heading_info{position:absolute; margin:0 auto; max-width:960px; width:80%; left:0; right:0; bottom:49px; text-align:center; font-family: 'uni_neueregular';}
+.heading_infobottom{bottom:112px !important;}
+.heading_info h2{ font-size:28px; color:#fff; font-weight:400;} 
+.heading_info p{ font-size:18px; color:#fff; padding:15px 0 15px}
+.heading_info .readmore{float:left; width:100%; text-align:center; margin:15px 0 0 0}
+.heading_info a{border:1px solid #fff; padding:10px 20px; border-radius:3px; color:#fff; font-size:15px;}
+.history_slider .slick-disabled{opacity:0.6}
+
+/*--------About us landing page css----------*/
+.about_facilities .our_world_head_box{position:relative; top:30px;}
+.about_facilities .our_world_head_box .world_block{background-color:#fff; margin:0px;}
+.about_facilities .our_world_head_box h3{text-align:center}
+.about_facilities .our_world_container p{float:left; width:100%; background-color:#fff; margin:20px 0; font-size:18px; font-family: 'uni_neuebook'; padding:10px 15%; text-align:center;}
+.about_facilities .our_world_container ul{margin:0px 0 0 0; background-color:#fff}
+.about_facilities .readmore_block .bg_block{margin:0 0 0px; background-color:#fff; padding-bottom:50px;}
+.our_world_container ul li .block_world .thumb_info{min-height:165px;}
+
+.about_awards_bg{float:left; width:50%; background: url(../images/about_awrads_bg.jpg) no-repeat; height:363px;}
+.awrds_info{float:right; margin:220px 40px 0 0; text-align:right; max-width:470px; width:87%; font-family: 'uni_neueregular';}
+.awrds_info h3{ font-size:28px; font-weight:400; color:#fff; padding:0 0 10px; }
+.awrds_info p{font-size:16px; color:#fff;}
+.info_margin{ margin:75px 40px 0 0;}
+
+.about_corgovernance_bg{float:left; width:50%; background: url(../images/about_corgovernance_bg.jpg) no-repeat; height:363px;}
+.corgovernance_info{float:left; margin:220px 0px 0 40px; text-align:left; max-width:470px; width:87%; font-family: 'uni_neueregular';}
+.corgovernance_info h3{ font-size:28px; font-weight:400; color:#fff; padding:0 0 10px; }
+.corgovernance_info p{font-size:16px; color:#fff;}
+
+.compliance_info{float:left; margin:74px 0px 0 40px; text-align:left; max-width:470px; width:87%; font-family: 'uni_neueregular';}
+.compliance_info h3{ font-size:28px; font-weight:400; color:#fff; padding:0 0 10px; }
+.compliance_info p{font-size:16px; color:#fff;}
+.compliance_info a.pdflink{ color:#ffffff; background:url(../images/pdf-download.png) no-repeat; padding: 12px 50px; display:block; margin-bottom:10px;}
+.compliance_info .readmore a{color: #ffffff; border-radius: 5px; border: 1px solid #ffffff; padding: 10px 15px; display: inline-block; margin-top: 15px;}
+/*--------CSR affirmative section start--------*/
+*{box-sizing:border-box}
+.csr_column{margin:30px 0 0}
+.csr_column p img.full{width:100%; max-width:1160px;}
+.story_numberbg{background:url(../images/story_number_bg.jpg) no-repeat; float:left; width:100%; min-height:525px; margin:0px 0 0; position:relative}
+.story_numberbg.internationalInitiatives_bg{background:url(../images/internationalInitiatives_bg.jpg) no-repeat; min-height:430px; position:relative}
+.story_numberbg.csr_programstory_bg{background:url(../images/csr_programstory_bg.jpg) no-repeat; min-height:430px; position:relative; background-size:cover;}
+.story_numberbg h3{font-size:28px; color:#fff; padding:30px 0 20px;}
+.story_numberbg h4{font-size:16px; color:#fff; padding:0;}
+.story_numberbg .row{background-color:transparent;}
+.story_numberbg ul{margin:0px; padding:0px; text-align:center; width:100%; float:left; }
+.story_numberbg ul li{display:inline-block; text-align:center; width:31.33%; color:#fff; font-size:20px; padding:25px; }
+.list_icon{float:left; font-size:48px; font-weight:400; font-family: 'uni_neuebook';}
+.list_icon i{float:left; padding-right:15px;} 
+.list_ifo{font-size:20px; float:left; width:100%; text-align:left; font-family: 'uni_neueregular'; font-weight:400; padding:10px 0 0 0; min-height: 105px;}
+.internationalInitiatives_box{float:left; width:100%; margin:44px 0 0 0}
+.internationalInitiatives_box .left_sec{float:left; width:50%; padding:0 0 0 15px}
+.internationalInitiatives_box .right_sec{float:right; width:50%; padding:0 25px 0 25px}
+.internationalInitiatives_box .right_sec.fl_right{float:right}
+
+
+
+.internationalInitiatives_box .left_sec.info{padding:0 25px 0 25px}
+h3.headcsr{ font-size:28px; text-align:left; padding:106px 0 25px 0;}
+p.csrinfo{font-size:16px; line-height:24px; font-weight:400;}
+/*--------CSR programs section start--------*/
+h3.prg_head{ font-size:28px; text-align:left; padding:36px 0 25px 0;}
+
+.profile_info .dsk_thumb{display:block}
+.profile_info .mob_thumb{display:none}
+
+.profile_info .ledershipPopText p:first-child strong{padding-top:0px !important;}
+
+/*--------------new css add modification--------------*/
+.large_profile{ background:url(../images/company_profile_bg.jpg) no-repeat center;height:278px;}
+.large_profile ul{position:relative;}
+.large_profile ul li{position:absolute; }
+.large_profile ul li h3, .large_profile ul li h4{margin:0px; padding:0px; text-align:left;}
+.large_profile ul li h3 {font-size:38px; color:#030352; font-family: 'uni_neuebook'; margin:0 0 8px; white-space: nowrap;overflow: hidden;/* width:5em; animation: type 10s steps(60, end);*/ }
+@keyframes type{ 
+  from { width: 0; } 
+}
+/*.large_profile ul li h3 span {font-size:25px;}*/
+.large_profile ul li h4 {font-size:20px; color:#2f7de1; font-family: 'uni_neuebook'; line-height:20px; margin:0 0 0 26px;}
+.large_profile ul li h4 span{ font-size:14px;}
+.large_profile ul li:nth-child(1){ left: 177px;top: 80px;}
+.large_profile ul li:nth-child(2){ left: 374px;top: 10px;}
+.large_profile ul li:nth-child(3){ left: 536px;top: 57px;}
+.large_profile ul li:nth-child(4) {left: 693px; top: -4px;}
+.large_profile ul li:nth-child(5) {left: 827px;top: 70px;}
+
+.large_profile ul li:nth-child(3) h3 {font-size:25px;}
+.large_profile ul li:nth-child(3) h3 span {font-size:38px;}
+
+/*new changes about us Corporate Social Responsibility*/
+
+.social_responsible{float:left; width:50%; background: url(../images/social_responsible_bgn.jpg) no-repeat; height:363px;}
+.social_responsible_info{float:right; margin:150px 40px 0 0; text-align:right; max-width:470px; width:87%; font-family: 'uni_neuebook';}
+.social_responsible_info h3{ font-size:28px; font-weight:400; color:#fff; padding:0 0 10px; }
+.social_responsible_info p{font-size:16px; color:#fff;}
+.social_responsible_info a{border:1px solid #fff; padding:6px 10px; border-radius:3px; color:#fff; font-size:15px; display:inline-block; margin:15px 0 0;}
+
+.socialn_bg{float:left; width:50%; background: url(../images/socailn_info_bg.jpg) no-repeat; height:363px;}
+.socailn_info{float:left; margin:150px 0px 0 40px; text-align:left; max-width:470px; width:87%; font-family: 'uni_neuebook';}
+.socailn_info h3{ font-size:28px; font-weight:400; color:#fff; padding:0 0 10px; }
+.socailn_info p{font-size:16px; color:#fff;}
+.socailn_info a{border:1px solid #fff; padding:6px 10px; border-radius:3px; color:#fff; font-size:15px; display:inline-block; margin:15px 0 0;}
+
+
+
+/*CSR Section Start*/
+.full-sec{width:100% !important;}
+.internationalInitiatives_box .full-sec{width:100% !important;}
+.pb30{padding-bottom: 30px;}
+.plr15{padding-left: 15px; padding-right: 15px;}
+
+.csr-body{width: 100%; padding: 0px 15px 30px 15px;}
+.csr-body img.left-img{float: left; padding: 0 25px 10px 0;}
+.csr-body img.right-img{float: right; padding: 0 0 10px 25px;}
+.csr-body h3{font-size: 28px; padding: 25px 0 25px 0; text-align: left !important;}
+.csr-body h3.pt0{padding-top: 0px;}
+.csr-body p{font-size: 16px; line-height: 24px; font-weight: 400; margin-bottom: 15px;}
+
+.seva-ad-spb{padding-bottom: 50px !important;}
+
+.csr-mt-140{margin-top: 140px !important;}
+/*CSR Section End*/
+/*--------CSR affirmative section start--------*/
+*{box-sizing:border-box}
+.csr_column{margin:30px 0 0}
+.csr_column p img.full{width:100%; max-width:1160px;}
+.story_numberbg{background:url(../images/story_number_bg.jpg) no-repeat; float:left; width:100%; min-height:525px; margin:0px 0 0; position:relative}
+.story_numberbg.internationalInitiatives_bg{background:url(../images/internationalInitiatives_bg.jpg) no-repeat; min-height:430px; position:relative}
+.story_numberbg.csr_programstory_bg{background:url(../images/csr_programstory_bg.jpg) no-repeat; min-height:430px; position:relative; background-size:cover;}
+.story_numberbg h3{font-size:28px; color:#fff; padding:30px 0 20px;}
+.story_numberbg h4{font-size:16px; color:#fff; padding:0;}
+.story_numberbg .row{background-color:transparent;}
+.story_numberbg ul{margin:0px; padding:0px; text-align:center; width:100%; float:left; }
+.story_numberbg ul li{display:inline-block; text-align:center; width:31.33%; color:#fff; font-size:20px; padding:25px; }
+.list_icon{float:left; font-size:48px; font-weight:400; font-family: 'uni_neuebook';}
+.list_icon i{float:left; padding-right:15px;} 
+.list_ifo{font-size:20px; float:left; width:100%; text-align:left; font-family: 'uni_neueregular'; font-weight:400; padding:10px 0 0 0;}
+.internationalInitiatives_box{float:left; width:100%; margin:44px 0 0 0}
+.internationalInitiatives_box .left_sec{float:left; width:50%; padding:0 0 0 15px}
+.internationalInitiatives_box .right_sec{float:right; width:50%; padding:0 25px 0 25px}
+.internationalInitiatives_box .right_sec.fl_right{float:right}
+
+
+
+.internationalInitiatives_box .left_sec.info{padding:0 25px 0 25px}
+h3.headcsr{ font-size:28px; text-align:left; padding:106px 0 25px 0;}
+p.csrinfo{font-size:16px; line-height:24px; font-weight:400;}
+/*--------CSR programs section start--------*/
+
+.csr-body ul.csr-list li {max-width: none; height: auto; background: url(../images/dotted-blue-csr.png) no-repeat 0 5px; padding: 0 0 0 18px; font-size: 16px; margin: 5px 0 5px;}
+
+@media screen and (max-width:1400px){
+	.vision_mission_values_bg ul li {margin: 0 12px 0 0;}
+	.info_affirmative {left: 20px;}
+	
+	/*------New css changes 5 feb-----*/	
+	.history_slider li {height: 403px;}
+	.history_slider {height: 410px;}
+	.large_profile ul li:nth-child(1) {left: 132px;}
+	.large_profile ul li:nth-child(2) {left: 329px;}
+	.large_profile ul li:nth-child(3) {left: 498px;}
+	.large_profile ul li:nth-child(4) {left: 649px;}
+	.large_profile ul li:nth-child(5) {left: 786px;}
+}
+
+ 
+@media screen and (max-width:1180px){
+.inside_container{width: 100%;}
+.vision_mission_values_bg {padding: 30px 0 30px 43px;}
+.vision_mission_values_bg ul li{float:left; max-width:300px; width:100%; background:url(../images/square_box_tab.png) no-repeat; height:199px; padding:10px 20px; font-family: 'uni_neuebook'; margin:0 12px 0 0; }
+.vision_mission_values_bg ul li:nth-child(2){max-width:300px;  background:url(../images/square_box_tab.png) no-repeat;  }
+.vision_mission_values_bg ul li p{font-size:15px;}
+
+.history_slider {padding: 0 2%;}
+
+.col2-box .left_info{font-size:15px;}
+.company_history h3{font-size:24px;}
+.company_history p{font-size:16px;}
+
+.about_awards_bg{float:left; width:50%; background: url(../images/about_awrads_bg_tab.jpg) no-repeat; background-size:cover; height:277px;}
+.about_corgovernance_bg{float:left; width:50%; background: url(../images/about_corgovernance_bg_tab.jpg) no-repeat; background-size:cover; height:277px;}
+
+.awrds_info{margin:105px 40px 0 0;}
+info_margin{ margin:auto;}
+.awrds_info h3{ font-size:24px;  }
+
+.about_corgovernance_bg{float:left; width:50%; background: url(../images/about_corgovernance_bg.jpg) no-repeat; height:277px;}
+.corgovernance_info{ margin:105px 0px 0 40px; }
+.corgovernance_info h3{ font-size:24px;  }
+
+.compliance_info{ margin:50px 0px 0 40px; }
+.compliance_info h3{ font-size:24px;  }
+
+
+
+
+
+
+
+/*--------CSR affirmative section start--------*/
+.list_ifo {font-size: 18px;}
+
+/*------New css changes 5 feb-----*/
+.vision_mission_values_bg ul li p {font-size: 14px;}
+.vision_mission_values_bg ul ul li{font-size:13px; margin: 3px 0 3px;}
+#directors ul li article h3 {font-size: 17px; line-height: 17px;}
+#directors ul li article h4 {font-size: 13px;line-height: 16px;}
+.facilities_cont section h4 {font-size: 28px; padding: 0px 0 15px;}
+.large_profile ul li:nth-child(1) {left: 98px;}
+.large_profile ul li:nth-child(2) {left: 293px;}
+.large_profile ul li:nth-child(3) {left: 459px;}
+.large_profile ul li:nth-child(4) {left: 615px;}
+.large_profile ul li:nth-child(5) {left: 748px;}
+
+
+
+.social_responsible{float:left; width:50%; background: url(../images/social_responsible_bgn_tab.jpg) no-repeat; background-size:cover; height:277px;}
+.social_responsible_info{margin:105px 40px 0 0;}
+.social_responsible_info h3{ font-size:24px;  }
+
+.socialn_bg{float:left; width:50%; background: url(../images/socailn_info_bgtab.jpg) no-repeat; background-size:cover; height:277px;}
+.socailn_info{ margin:105px 0px 0 40px; }
+.socailn_info h3{ font-size:24px;  }
+}
+
+@media screen and (max-width:800px){
+	.list_icon i img{width:40px;}
+	.list_icon {font-size: 37px;}
+	.list_ifo {font-size: 16px;}
+	.col2-box .left_info {width: 100%;}
+	.col2-box .right_info {width: 100%;}
+	.col2-box .right_info img{width:100%}
+	.info_affirmative {left:0px;}
+	.inside_container h3 {padding: 25px 15px;}
+		.vision_mission_values_bg{float:left; background:url(../images/vision_mission_values_mobbg.jpg) no-repeat center top; width:100%; background-size:cover; height:auto; padding:30px 0; color:#fff;} 
+	.vision_mission_values_bg ul {margin:0 auto; width:80%}
+	.vision_mission_values_bg ul li{border:1px solid #fff; float:left; width:100%; padding: 0px 0px 0px 0;}
+	.vision_mission_values_bg ul li, .vision_mission_values_bg ul li:nth-child(2) {background: none no-repeat;height: auto; padding: 20px; margin: 8px 0px 8px 0; max-width:none;  }
+	.vision_mission_values_bg ul ul{width:100%}
+	.vision_mission_values_bg ul ul li{border:0px solid; margin-bottom:0px !important; padding:0px 20px 0 20px !important; font-size:15px}
+	.vision_mission_values_bg ul li p{font-size:15px;}
+	/*.vision_mission_values_bg ul ul li:nth-child(2){padding-top:0px; padding-bottom:0px; margin-right:0}*/
+	
+	/*------New css changes 5 feb-----*/
+	.about_awards_bg {width: 100%;}
+	.about_corgovernance_bg {width: 100%;}
+	
+.awrds_info {margin: 105px 0px 0 40px; text-align: center;  max-width: 100%;  width: 87%;}
+.corgovernance_info{text-align: center;  max-width: 100%;}
+.compliance_info{text-align: center;  max-width: 100%;}
+.large_profile ul li{position:relative; display:inline-block; width:33.33%; margin:0 -5px 25px; padding-left:30px; padding-bottom:30px;}
+.large_profile ul li:nth-child(1), .large_profile ul li:nth-child(2), .large_profile ul li:nth-child(3), .large_profile ul li:nth-child(4), .large_profile ul li:nth-child(5){left:inherit; top:inherit}
+.large_profile ul li h3{width:100%;}
+.large_profile ul li h4 { margin: 0 0 0 0px;}
+.large_profile{background:none; margin:15px 0}
+
+	/*------New css changes 2 april 2018-----*/
+	.social_responsible {width: 100%;}
+	.socialn_bg {width: 100%;}
+/*	CSR Section start*/
+	
+	.csr-body img.left-img {width: 100%; padding: 0 0px 30px 0;}	
+	.csr-body img.right-img {padding: 0 0 50px 0px; width: 100%;}
+	.affirmative_btn{float: left; width: 100%; margin: 25px 0;}
+	.csr_cap{bottom: 110px !important;}
+	
+/*	CSR Section end*/
+	
+	.story_numberbg ul{ font-size: 0px; }
+.story_numberbg ul li{width:33.33%;}
+	.inside_container h3 {
+    padding: 25px 0px;
+}
+	
+	.vision_mission_values_bg ul.new_brd_list > li {background: none; width: 100%; margin: 0px; margin-bottom: 25px;     padding: 0 6px 25px;}
+	.vision_mission_values_bg ul.new_brd_list > li aside {border-radius: 0; border: 0px solid #fff; width: 100%; height: 100%; padding: 30px;}
+}
+
+@media screen and (max-width:680px){
+	.history_slider {padding: 0 12%;}
+	.col2-box .left_info{width:100%}
+	.col2-box .right_info {width: 100%;text-align: center;margin:20px 0 0 0;}
+.profile_info .dsk_thumb{display:none}
+.profile_info .mob_thumb{display:block}
+
+	.company_history p{padding:0 10%}
+	
+	.about_awards_bg{float:left; width:100%; background: url(../images/about_awrads_bg_mob.jpg) no-repeat; background-size:cover; height:364px;}
+	.awrds_info, .corgovernance_info{margin:150px auto 0; text-align:center; float:none; }
+	compliance_info{margin:150px auto 0; text-align:center; float:none; }
+.about_corgovernance_bg{float:left; width:100%; background: url(../images/about_corgovernance_bg_mob.jpg) no-repeat; background-size:cover; height:364px;}
+.story_numberbg{background:url(../images/story_number_bg_mob.jpg) no-repeat; background-size:cover; float:left; width:100%; min-height:inherit; margin:20px 0 0; padding-bottom:25px;}
+.story_numberbg ul li {width:100%; padding:25px 25%;}
+.list_icon {float: none;}
+.list_icon i {float: none;}
+.list_ifo {text-align: center;}
+.list_icon i img {width: auto;}
+.list_icon {font-size: 48px;}
+.list_ifo {font-size: 20px;}
+.story_numberbg.internationalInitiatives_bg{background:url(../images/internationalInitiatives_bg_mob.jpg) no-repeat; min-height:770px; background-size:cover;}
+.story_numberbg.csr_programstory_bg{background:url(../images/csr_programstory_bg_mob.jpg) no-repeat; min-height:770px; background-size:cover;}
+.internationalInitiatives_box .left_sec {width: 100%; padding: 0 0 0 0px;}
+.internationalInitiatives_box .right_sec {width: 100%;padding:0px !important;}
+.internationalInitiatives_box {margin: 44px 0 0 0; padding:0 25px;}
+.internationalInitiatives_box h3{padding: 25px 0px;}
+.internationalInitiatives_box .left_sec.info {padding: 0 0px 0 0px;}
+.large_profile{height:auto}
+.large_profile ul li{position:relative; display:inline-block; width:50%; margin:0 -5px 25px; padding-left:30px; padding-bottom:30px;}
+.large_profile ul li h3, .large_profile ul li:nth-child(3) h3 span{font-size:24px;}
+.large_profile ul li h4{font-size:14px;}
+
+
+	.social_responsible{float:left; width:100%; background: url(../images/social_responsible_bgn_mob.jpg) no-repeat; background-size:cover; height:auto;}
+	.social_responsible_info, .socailn_info{margin:150px auto 50px; text-align:center; float:none; }
+.socialn_bg{float:left; width:100%; background: url(../images/socailn_info_bg_mob.jpg) no-repeat; background-size:cover; height:auto;}
+	
+	/*	CSR Section start*/
+	
+	.csr-body img.left-img{width: 100%}
+	.seva-ad-spb{padding-bottom: 0px !important;}
+	
+/*	CSR Section end*/
+	
+}
+
+
+@media screen and (max-width:480px){
+	.inside_container{width: 90%;}
+	.col2-box {padding: 25px 0px;}
+	.heading_info p{font-size:16px;}
+	.about_facilities .our_world_container p {padding: 10px 0% 25px; font-size:16px;}
+	.our_world_container ul li {padding: 0 0%;}
+	.our_world_container ul li .block_world .thumb {height: auto;}
+	
+	/*------New css changes 5 feb-----*/
+	
+	.vision_mission_values_bg ul ul.col2 li {width: 100%; margin:5px 0px !important;}
+	.our_world_container ul li .block_world .thumb img {width: 100%;height: auto;}
+}

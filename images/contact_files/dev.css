@@ -1,0 +1,35 @@
+.open_share_dev{position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index:9999; }
+.open_share_dev ul {margin:25% auto 0; max-width:600px; width:80%; }
+.open_share_dev li{display:inline-block; text-align:center; background-color:#ffffff;  padding:4%; border-radius:8px; margin-right:15px;}
+
+.share-overlay-dev {
+  /* shadow layer visible when navigation is active */
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s, -webkit-transform 0.3s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, -moz-transform 0.3s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s;
+  z-index:999;
+}
+.share-overlay-dev.is-visible {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s, -webkit-transform 0.3s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s, -moz-transform 0.3s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s;
+}
+
+.blog_listing .left_listing ul li article .share_dev{float:right; font-size:15px; color:#000000; position:relative;}
+
+.allin_blog  h3 .share_dev{float:right; color:#000000;}
+.allin_blog  h3 .share_dev i{float:right; padding:2px 0 0 8px;}
